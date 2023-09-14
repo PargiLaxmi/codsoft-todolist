@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(image.jpg);
+    background-size: cover;
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 250px;
+}
+
+.h1 {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(233, 233, 222);
+    ;
+}
+
+#taskform {
+    padding-top: 38px;
+}
+
+#inputtask {
+    height: 40px;
+}
+
+#addbutton {
+    height: 30px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+#taskList {
+    font-size: 40px;
+    padding-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #eeefe3;
+}
+
+.icon a i {
+    color: rgb(226, 226, 212);
+    position: relative;
+}
